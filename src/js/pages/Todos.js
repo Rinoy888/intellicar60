@@ -21,11 +21,6 @@ export default class Featured extends React.Component{
     }
 
 
-    createTodo(){
-        console.log("clicked");
-        TodoActions.createTodo(Date.now());
-    }
-
     render(){
         const { todos } = this.state;
         const TodoComponents = todos.map((todo)=>{

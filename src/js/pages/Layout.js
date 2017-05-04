@@ -13,7 +13,6 @@ export default class Layout extends React.Component{
         return(
             <div className="maindiv">
                 <div className="md-nav">
-
                     <div className="nav-logo-titile m-left">
                         <div className="lt-left">IN</div>
                         <div className="lt-top">TELLICAR</div>
@@ -24,16 +23,15 @@ export default class Layout extends React.Component{
                         <div className="spinner-2"></div>
                         <div className="spinner-3"></div>
                     </div>
-
                     {/*<div className="md-log-box m-left">*/}
                         {/*<Link  className="nav-log " to="dashboard" activeClassName="active"><FaDesktop /></Link>*/}
                     {/*</div>*/}
                     {/*<div className="md-log-box">*/}
                         {/*<Link className="nav-log " to="features" activeClassName="active"><Fabar /></Link>*/}
                     {/*</div>*/}
-                    {/*<div className="md-log-box">*/}
-                        {/*<Link className="nav-log " to="settings" activeClassName="active"><Fasettings /></Link>*/}
-                    {/*</div>*/}
+                    <div className="md-log-box">
+                        <Link className="nav-log " to="features" activeClassName="active"><Fasettings /></Link>
+                    </div>
                 </div>
                 {this.props.children}
             </div>

@@ -7,7 +7,7 @@ export default class Features extends React.Component{
 
         return(
             <div>
-                <h2>heyy im stats</h2>
+                <h2>hey im features and this is just random text</h2>
             </div>
         );
     }

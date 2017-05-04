@@ -36,6 +36,7 @@
     "webpack-hot-middleware": "^2.11.0"
   },
   "devDependencies": {
+    "axios": "^0.16.1",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "flux": "^3.1.2",
@@ -45,7 +46,10 @@
     "react-icons": "^2.2.3",
     "react-packery-component": "^1.0.2",
     "react-packery-mixin": "^0.2.0",
+    "react-popup": "^0.6.0",
     "react-router": "^2.8.1",
-    "react-transform-hmr": "^1.0.4"
+    "react-svg-buttons": "^0.3.1",
+    "react-transform-hmr": "^1.0.4",
+    "redux-thunk": "^2.2.0"
   }
 }

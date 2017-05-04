@@ -1,4 +1,5 @@
 import dispatcher from  "../dispatcher";
+import axios from 'axios';
 
 export function createTodo(text) {
     dispatcher.dispatch({
@@ -11,4 +12,18 @@ export function deleteTodo(text) {
        type:"DELETE_TODO",
         text,
     });
+}
+export function getdatarate(text) {
+    dispatcher.dispatch({
+       type:"GETDATARATE",
+        text,
+    });
+}
+export function fetchdata(){
+
+            axios.get(`http://localhost:1234/api/widget/getdatarate`)
+            .then(response => {
+               data:response
+            })
+            return data;
 }
